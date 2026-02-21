@@ -45,15 +45,15 @@ export default function PolicyFellowshipPage() {
   const faqData = [
     {
       question: "What sort of experience is expected?",
-      answer: "Previous work in AI or technology policy is helpful, but by no means required. In the past, fellows have had backgrounds in public policy, law, political science, as well as a variety of technical fields."
+      answer: "We welcome applications from students with a range of previous experiences: previous work in AI or technology policy is helpful, but by no means required. In the past, fellows have had backgrounds in public policy, law, political science, as well as a variety of technical fields. This is not an exhaustive list, and we encourage those with other academic backgrounds to apply as well."
     },
     {
       question: "Who can join the fellowship?",
-      answer: "Past intro fellows have primarily been undergraduate, masters, and graduate students from Columbia. The summer session is remote, so students from other universities and non-student professionals are welcome to apply."
+      answer: "Past intro fellows have primarily been undergraduate, masters, and graduate students from Columbia. The fall and spring fellowships are strictly in person and on campus, so we can't accept non-Columbia affiliates due to campus security. The summer session is remote, so students from other universities and non-student professionals are welcome to apply."
     },
     {
       question: "When and where does the fellowship meet?",
-      answer: "Each cohort meets once a week for two hours, with dinner or lunch provided. We ask for your availability in the application, and will attempt to accommodate everyone's schedules when forming cohorts."
+      answer: "We ask for your availability in the application, and will attempt to accommodate everyone's schedules when forming cohorts. Each cohort meets once a week for two hours, with dinner or lunch provided. We'll be meeting in various meeting rooms across Columbia's campus depending on availability."
     },
     {
       question: "What if I already know all the material in the curriculum?",
@@ -65,7 +65,10 @@ export default function PolicyFellowshipPage() {
           </Link>, you may be interested in attending our{" "}
           <Link href="/get_involved/research-groups" className="text-[#4A8A99] hover:underline">
             research groups
-          </Link> or applying for club membership.
+          </Link>. Feel free to email us at <Link href="mailto:cualignment@gmail.com" target="_blank"
+            rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">
+          cualignment@gmail.com
+          </Link> to discuss other ways of getting involved with CAIAC!
         </>
       )
     },
@@ -151,7 +154,7 @@ export default function PolicyFellowshipPage() {
           </a> for the curriculum (subject to change).
         </p>
 
-        <p><strong>Applications for the Spring 2026 Policy & Governance Fellowship are now closed!</strong></p>
+        <p><strong>Applications for the Spring 2026 Policy & Governance Fellowship are now open! <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfVuIlQNPrSyLEKsbf4uD7bifHw0Wa2XMW7rah3VSl1suAngQ/viewform">Apply here.</a></strong> </p>
         <p>For those interested in the technical side of AI safety, we recommend applying to our introductory <a 
             href="/get_involved/technical-fellowship" 
             className="text-[#4A8A99] hover:underline"
