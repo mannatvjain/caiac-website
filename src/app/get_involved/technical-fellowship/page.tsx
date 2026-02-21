@@ -45,7 +45,7 @@ export default function TechnicalFellowshipPage() {
   const faqData = [
     {
       question: "Who can join the fellowship?",
-      answer: "Past intro fellows have primarily been undergraduate, masters, and graduate students from Columbia. The summer session is remote, so students from other NYC universities and non-student professionals are welcome to apply."
+      answer: "Past intro fellows have primarily been undergraduate, masters, and graduate students from Columbia. The fall and spring fellowships are strictly in person on campus, so we can't accept non-Columbia affiliates due to campus security. The summer session is remote, so students from other NYC universities and non-student professionals are welcome to apply."
     },
     {
       question: "How much experience with machine learning is expected?",
@@ -58,7 +58,7 @@ export default function TechnicalFellowshipPage() {
       )    },
     {
       question: "When and where does the fellowship meet?",
-      answer: "Each cohort meets once a week for two hours, with dinner or lunch provided. We ask for your availability in the application, and will attempt to accommodate people's schedules when forming cohorts."
+      answer: "We ask for your availability in the application, and will attempt to accommodate people's schedules when forming cohorts. Each cohort meets once a week for two hours, with dinner or lunch provided. We'll be meeting in various meeting rooms across Columbia's campus depending on availability."
     },
     {
       question: "What if I already know all the material in the curriculum?",
@@ -69,7 +69,9 @@ export default function TechnicalFellowshipPage() {
           </Link>, you may be interested in attending our{" "}
           <Link href="/get_involved/research-groups"className="text-[#4A8A99] hover:underline">
             research groups
-          </Link> or applying for club membership.
+          </Link>. Feel free to email us at <Link href="mailto:cualignment@gmail.com"target="_blank" rel="noopener noreferrer" className="text-[#4A8A99] hover:underline">
+          cualignment@gmail.com
+          </Link> to discuss other ways of getting involved with CAIAC!
         </>
       )
     },
@@ -124,7 +126,7 @@ export default function TechnicalFellowshipPage() {
             here 
           </a> for the curriculum (subject to change).
         </p>
-        <p><strong>Applications for the Spring 2026 Technical Fellowships are now closed!</strong></p>
+        <p><strong>Applications for the Spring 2026 Technical Fellowships are now open! <a href="https://docs.google.com/forms/d/e/1FAIpQLSc51ikVAmLDjDx216mCgioHgImXIgPpIY79b0DK7D3PSqdJtg/viewform">Apply here.</a></strong></p>
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/policy-fellowship" 
             className="text-[#4A8A99] hover:underline"
